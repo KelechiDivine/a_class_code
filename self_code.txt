@@ -1,0 +1,11 @@
+class person:
+    def __init__(the_person_has_a, fname, lname):
+        the_person_has_a.firstname = fname
+        the_person_has_a.secondname = lname
+    def printname(calling):
+        print(calling.firstname, calling.secondname)
+
+class student(person):
+    pass
+c=student("Okoroafor", "Kelechi")
+c.printname()
